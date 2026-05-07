@@ -34,7 +34,8 @@
       "utils/*": ["src/utils/*"],
       "wrappers/*": ["src/wrappers/*"]
     },
-    "strict": true
+    "strict": true,
+    "types": ["jest", "@testing-library/jest-dom"]
   },
   "include": [
     ".next/dev/types/**/*.ts",
@@ -44,5 +45,5 @@
     "next-env.d.ts",
     "src"
   ],
-  "exclude": ["__tests__/**/*", "jest.setup.ts", "node_modules"]
+  "exclude": ["__tests__/**/*", "node_modules"]
 }
